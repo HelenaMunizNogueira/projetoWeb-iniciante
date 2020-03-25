@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MEU CURRICULO</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/CSS.css">
+	</head>
+	<body>
+
+		<section id="home" >
+
+			<nav>
+				<ul class="links">
+					<li><a href="#home" class="efeito">HOME </a></li>
+					<li><a href="#sobre" class="efeito">SOBRE </a></li>
+					<li><a href="#objetivo" class="efeito">OBJETIVO </a></li>
+					<li><a href="#qualificacoes" class="efeito">QUALIFICAÇÕES </a></li>
+					<li><a href="#xp" class="efeito">EXPERIÊNCIA (TI) </a></li>
+					<li><a href="#hm" class="efeito">CURIOSIDADES </a></li>
+					<li><a href="#contato" class="efeito">CONTATO </a></li>
+				</ul>
+			</nav>
+			<section>
+				<header><h2 id="top">HOME</h2></header>
+				<div class="conteudo">
+					<div class="imagem">
+						<img src="imagensp/eu.jpg"/ alt="Helena Muniz">	
+					</div>
+					<div class="texto">
+						<p>HELENA MUNIZ NOGUEIRA</p>
+						<br/><p id="menor">GRADUANDA DE SISTEMAS DE INFORMAÇÃO </p>
+					</div>
+			</section>
+		</section>
+		<section id="sobre">
+			<header><h2 id="topp">SOBRE</h2></header>
+				<section>																														
+					<p>
+						Meu nome é Helena, tenho 18 anos, sou graduanda de sistemas de informação na ufla, estou no setimo período do curso. 
+					</p>
+				</section>
+		</section >
+
+		<section id="objetivo">
+			<header><h2 id="toppp">OBJETIVO</h2></header>
+				<section>								
+					<p>
+						Tenho como objetivo, ir atras de coisas que me façam crescer tanto quanto na parte profissional quanto como pessoa.
+						Assim como tenho objetivo de poder contribuir no meio onde estou alocada, para que possa haver um crescimento mutuou.
+					</p>
+				</section>	
+		</section>
+		<section id="qualificacoes">
+			<header><h2 id="toppp">QUALIFICAÇÕES</h2></header>
+				<section>
+					<p>
+						Possuo grande pratica em programação e experiencia em gestão.
+					</p>
+				</section>
+		</section>
+		<section id="xp">
+			<header><h2 id="toppppp">EXPERIÊNCIA(TI)</h2></header>
+				<section>
+					<p>
+						Minhas experiências na aréa de T.I. basea-se totalmente no conhecimento e oportinidades que adquiri dentro da universidade.
+					</p>
+				</section>
+		</section>
+		<section id="hm">
+			<header><h2 id="topppoo">CURIOSIDADES</h2></header>
+			<p>
+				Sou uma pessoa extremamente comunicativa e adoro conhecer novas pessoas, mas tenho como meus hobby favorito passar meu tempo sozinha geralmente assistindo algum filme ou serie.
+			</p>
+		</section>
+		<section id="contato">
+			<header><h2 id="topppo">CONTATO</h2></header>
+			<p >
+				<div id="m"></br></br><a href="https://www.facebook.com/helena.muniznogueira"><img src="imagensp/facebook.png" ></a><dir class="t">/helena.muniznogueira</dir></div>
+				<div id="n"></br></br><a href="tel: 04135992130707"><img src="imagensp/whatsapp.png"></a><div class="t"></br>(35) 9 99213-0707</div></div>
+				<div id="h"></br></br><a href="emailto:helenamuniznogueira@gmail.com"><img src="imagensp/email.png"></a><div class="t"> helenamuniznogueira@gmail.com</div></div>
+			</p>
+		</section>
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+		<script type="text/javascript">
+			$(".efeito").click(function() {
+			 	sectionID = $(this).attr("href");
+				$("html,body").animate( 
+				{
+					scrollTop: $(sectionID).offset().top}, 350);
+			});
+		</script>
+	</body>
+</html>

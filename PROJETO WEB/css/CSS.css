@@ -1,0 +1,214 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			section {
+				width: 100vw;
+				height: 100vh;
+				justify-content: center;
+				align-items: center;
+				display: flex;
+			}
+			#home {
+					background-color:#86E7B8;
+				}
+			#sobre{
+					background-color:#93FF96;
+				}
+			#objetivo{
+					background-color:#B2FFA8; 
+				}
+			#qualificacoes{
+					background-color:#D0FFB7;
+				}
+			#xp{
+					background-color:#BBE2BA;
+				}
+			#hm{
+					background-color:#E0FFFF;	
+				}
+			#contato{
+					background-color:#F2F5DE;
+			}
+			#home ul a{
+				text-decoration: none;
+			}
+			#home ul li{
+				padding: 0px 0;
+				flex-grow: 1;
+				cursor: pointer;
+				transition: all .4s;
+				text-align: center;
+				color:#000080;
+				font-size: 28px;
+				font-family:'Oswald', sans-serif;
+				
+			}
+
+			#home ul li{
+				list-style-type: none;
+				
+			}
+			.links{
+					width:100%;
+					height: 42px;
+					top: 0.9px;
+					position: fixed;
+					display: flex;
+			}
+			body{
+					
+					width: 100vw;
+					height: 100vh;
+					overflow: hidden;	 
+			}
+			#home ul li:hover{
+				background: rgba(255,20,147,0.8);
+			}
+			#home ul li a:visited {
+				color: #000080;
+			}
+	
+			.texto p{
+				color: #000000;
+				font-size: 40px;
+				font-family: 'Bungee Inline', cursive;
+				display: table-cell;
+			}
+			#menor{
+				font-size: 30px;
+			}
+			.conteudo{
+				display: table;
+				margin-top: 140px;
+				float: left;
+				padding-left: 20px;
+			}
+			.imagem img{
+				height: 200px;
+				width: 200px;
+				display: table-cell;
+				float: left;
+				border: #000000 Solid 10px;
+				margin: auto;
+			}
+			.texto{
+				display:table-cell;
+				float: left;
+				margin-left: 25px; 
+				margin-top:50px;
+			}
+			#sobre p{
+				font-size: 30px;
+				font-family:'Oswald', sans-serif;
+				padding-left: 40px;
+				padding-right: 40px; 
+				padding-top: 100px;
+				text-indent: 25px;
+			}
+			#objetivo p{
+				font-size: 30px;
+				font-family:'Oswald', sans-serif;
+				padding-left: 40px;
+				padding-right: 40px; 
+				padding-top: 100px;
+				text-indent: 25px;
+			}
+			#qualificacoes p{
+				font-size: 30px;
+				font-family:'Oswald', sans-serif;
+				padding-left: 40px;
+				padding-right: 40px; 
+				padding-top: 100px;
+				text-indent: 25px;
+			}
+			#xp p{
+				font-size: 30px;
+				font-family:'Oswald', sans-serif;
+				padding-left: 40px;
+				padding-right: 40px; 
+				padding-top: 100px;
+				text-indent: 25px;
+			}
+			#hm p{
+				font-size: 30px;
+				font-family:'Oswald', sans-serif;
+				padding-left: 40px;
+				padding-right: 40px; 
+				padding-top: 100px;
+				text-indent: 25px;
+			}
+
+			#top{
+				font-size: 60px;
+				font-family:'Oswald', sans-serif;
+				margin-bottom: 350px;
+				text-indent: -200px;
+				color: #FF1493;
+			}
+			#topp{
+				font-size: 60px;
+				font-family:'Oswald', sans-serif;
+				margin-bottom: 350px;
+				color: #FF1493;
+				text-indent:40px; 
+			}
+			#toppp{
+				font-size: 60px;
+				font-family:'Oswald', sans-serif;
+				margin-bottom: 350px;
+				color: #FF1493;
+				text-indent:40px;
+			}
+			#topppp{
+				font-size: 60px;
+				font-family:'Oswald', sans-serif;
+				margin-bottom: 350px;
+				color: #FF1493;
+				text-indent:40px;
+			}
+			#toppppp{
+				font-size: 60px;
+				font-family:'Oswald', sans-serif;
+				margin-bottom: 350px;
+				color: #FF1493;
+				text-indent:40px;
+			}
+			#topppoo{
+				font-size: 60px;
+				font-family:'Oswald', sans-serif;
+				margin-bottom: 350px;
+				color: #FF1493;
+				text-indent:40px;
+			}
+			#topppo{
+				font-size: 60px;
+				font-family:'Oswald', sans-serif;
+				margin-bottom: 350px;
+				color: #FF1493;
+				text-indent:40px;
+			}
+			#contato img{
+				height: 40px;
+				width: 40px;
+				display: table-cell;
+				float: left;
+				margin: auto;
+				line-height: 20px;
+			}
+			.t{
+				font-size: 20px;
+				font-family:'Oswald', sans-serif;
+				flex-grow: all;
+				line-height: 2;
+				margin-left: 4px;
+			}
+			#m{
+				margin-left: 80px;
+			}
+			#n{
+				margin-left: 80px;
+			}
+			#h{
+				margin-left: 80px;
+			}
